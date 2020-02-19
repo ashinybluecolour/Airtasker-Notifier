@@ -21,19 +21,20 @@ with the specified keywords in their title.
 > usage: ./airtasker_notifier.py --lat <latitude> --lon <longitude> <job keyword>
 
 
-> optional arguments: --distance <maximum distance from location in km>
+> optional arguments: 
+>  --distance <maximum distance from location in km>
 
 
->                    --min <minimum pay (must be >= 5)>
+> --min <minimum pay (must be >= 5)>
 
 
->                    --max <maximum pay> (must be <= 9999)
+> --max <maximum pay> (must be <= 9999)
 
 
->                    --type <'remote', 'onsite' or 'both'>
+> --type <'remote', 'onsite' or 'both'>
 
 
->                    --keywords <keyword 1> <keyword 2> ...
+> --keywords <keyword 1> <keyword 2> ...
 
 
->                    --no_keywords
+> --no_keywords
