@@ -7,7 +7,7 @@ it's already been assigned. Airtasker Notifier allows you to
 browse your favourite social media and be notified of jobs
 with the specified keywords in their title.
 
-#Airtasker Notifier Demo
+# Airtasker Notifier Demo
 ![Airtasker Notifier Demo](demo/demo.jpg)
 
 # Requirements
