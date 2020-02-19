@@ -18,14 +18,18 @@ with the specified keywords in their title.
 
 # Usage
 
-> usage: ./airtasker_notifier.py --lat <latitude> --lon <longitude> <job keyword>
+> usage: 
+
+> ./airtasker_notifier.py --lat <latitude> --lon <longitude> <job keyword>
 
 
 > optional arguments: 
->  --distance <maximum distance from location in km>
 
 
-> --min <minimum pay (must be >= 5)>
+> --distance <maximum distance from location in km>
+
+
+> --min <minimum pay> (must be >= 5)
 
 
 > --max <maximum pay> (must be <= 9999)
