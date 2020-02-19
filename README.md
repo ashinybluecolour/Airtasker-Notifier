@@ -20,7 +20,7 @@ with the specified keywords in their title.
 
 > usage: 
 
-> ./airtasker_notifier.py --lat &lt;latitude&gt; --lon &lt;longitude&gt; &lt;job keyword&gt;
+> ./airtasker_notifier.py --lat &lt;latitude&gt; --lon &lt;longitude&gt;
 
 
 > optional arguments: 
