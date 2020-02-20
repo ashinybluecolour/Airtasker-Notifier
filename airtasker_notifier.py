@@ -58,8 +58,12 @@ for i in range(1, len(os.sys.argv)):
     else:
      break
 
+if (len(keywords) == 0 and check_keywords):
+ print("Please specify keywords using --keywords, type -h for help.")
+ os.sys.exit(0)
+
 if ((type == "both" or type == "onsite") and not (lat == "lat=" or lon == "lon=")):
- print ("Please specify a latitude and longitude, type -h for help.")
+ print ("Please specify a latitude and longitude using --lat and --lon, type -h for help.")
  os.sys.exit(0)
 
 req_headers = {'sort_by':'recent', 'task_states':'posted', 'task_types':'physical', 'lat':'-31.9039', 'lon':'116.2024', 'radius':'50000'}
