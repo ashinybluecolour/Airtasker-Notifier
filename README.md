@@ -14,7 +14,7 @@ with the specified keywords in their title.
 
 - A device running MacOS
 - An internet connection
-- json, requests and fpdf modules for Python 3
+- json and requests modules for Python 3
 
 # Usage
 
